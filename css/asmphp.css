@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 1400px;
+    margin: auto;
+    padding: auto;
+    
+}
+.header-top{
+    display: grid;
+    grid-template-columns: 1000px 1fr;
+    grid-gap: 20px;
+}
+.header-top ul{
+    text-align: center;
+}
+.header-top ul li{
+    display: inline-block;
+    border-right: 1px solid rgb(123, 123, 123);
+
+    
+}
+.header-top ul li a{
+    display: block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin-top: 5px;
+    padding-right: 10px;
+}
+.header-top{
+    width: 100%;
+    background-color: black;
+    height: 40px;
+}
+.dangnhap{
+    margin-left: 100px;
+}
+.dangnhap button a{
+ display: block;
+ text-decoration: none;
+ color: rgb(255, 255, 255);
+}
+.dangnhap button{
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 100px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+.header-logo{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-gap: 10px;
+    background-color: rgb(255, 254, 254);
+}
+.loai ul{
+    text-align: center;
+}
+.loai ul li{
+    display: inline-block;
+    margin: 20px;
+}
+.loai ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 30px;
+    color: #000;
+}
+.logo{
+    margin: 20px 20px 20px 50px;
+}
+.loai button{
+    width: 50px;
+    height: 40px;
+}
+.loai input{
+    width: 400px;
+    padding: 
+    10px;
+}
+.tim{
+    margin-left: 250px;
+}
+.nut{
+    text-align: center;
+    margin: 10px;
+}
+.nut button{
+    margin-left: 20px;
+    margin-right: 20px;
+padding: 15px 25px;
+  font-size: 24px;
+  color: #fff;
+  background-color: #3e483e;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 3px #999;
+}
+.nut button:hover {background-color: #000000}
+
+.nut button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.content{
+    padding-top: 20px;
+    background-color: rgb(213, 213, 213);
+}
+.tenloai{
+    width: 300px;
+    margin: 20px;
+}
+.tenloai h3{
+    border-style: double;
+    padding: 5px;
+    background-color: white;
+}
+.product-zed{
+    width: 1400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+.product img{
+    border-style: double;
+}
+.p1{
+    text-align: center;
+}
+.fooder{
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-bottom: 1px solid rgb(163, 163, 163);
+}
+.tenshop p{
+    padding: 10px;
+}
+.fooder h3{
+    padding: 10px;
+}
+.lienhe{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    text-align: left;
+    padding-bottom: 50px;
+}
+.lienhe p a{
+    display: block;
+    text-decoration: none;
+}
+.lh2 p a{
+    color: rgb(140, 140, 140);
+}
+.lh3 p a{
+    color: rgb(140, 140, 140);
+}
+.lh1{
+    padding-left: 40px;
+}
+.lh2{
+    padding-left: 40px;
+}
+.lh3{
+    padding-left: 40px;
+}
+i{
+    color: rgb(255, 255, 255);
+}
+.p1 button{
+    padding: 5px;
+    margin-bottom: 20px ;
+}
+.content ul li{
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+    background-color: bisque;
+    border-radius: 5px;
+}
+.content ul{
+    text-align: center;
+}
+.content{
+    text-align: center;
+}
+.content table{
+    margin-left: 350px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}

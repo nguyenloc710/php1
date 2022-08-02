@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: auto;
+    padding: auto;
+    width: 1000px;
+    background-color: rgb(207, 207, 207);
+}
+form{
+    width: 800px;
+    background-color: white;
+    margin: auto;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+form a{
+    display: block;
+    color: black;
+    padding-left: 150px;
+}
+h1{
+    text-align: center;
+    margin: 20px;
+}
+input{
+    padding: 10px;
+    width: 500px;
+    margin-left: 150px;
+    margin-bottom: 20px;
+}
+.gui{
+    width: 522px;
+}
+.header{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border-top: 3px solid black;
+    margin-bottom: 50px;
+}
+
